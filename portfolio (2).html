@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Salma Wangara|Portfolio</title>
+         <link rel="stylesheet" href="hello.css">
+        <style>
+            body {
+                background: url("https://seanpaulstore.com/wp-content/themes/seanpaulstore/image/patterns/transparent/p33.png");
+                background-position: left;
+                background-repeat: repeat;
+                background-size: cover;
+            }
+
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            #header {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .navbar {
+                display:flex;
+                justify-content: space-between;
+                align-items: start;
+            }
+
+            .hero {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+            }
+
+            .hello{
+                gap: 5px;
+                margin: 2px;
+                padding: 2px;
+            }
+
+            .button-group {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+
+            .hire{
+                border-radius: 7px;
+                border: solid 2px black;
+                width: 150px;
+                text-align: center;
+                color: blue;
+            }
+
+            .bottom{
+                display: flex;
+                min-height: 80px;
+                gap: 90px;
+                justify-content: space-between;
+                align-items: end;
+
+            }
+            .image{
+                display:flex;
+                gap:10px;
+            }
+            .email{
+                display:flex;
+                justify-content: space-between;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+       <div id="header">
+        <div class="navbar">
+            <img src="https://cdn.pixabay.com/photo/2015/02/13/09/47/finance-634901__340.png" height="100" width="100">
+            <img src="https://cdn.pixabay.com/photo/2015/02/13/09/47/finance-634901__340.png" height="100" width="100">
+        </div>
+        <div class="hero">
+            <h1 class="hello">Hello, this is </h1>
+            <h1 class="hello">Salma Wangara</h1>
+            <h3 class="web">A web-developer</h3>
+            <div class="button-group">
+                <a href="./recruitment.html" class="hire">Hire Me</a>
+               <a href="./resume.html" class="hire">View Resume</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="image">
+            <a href="https://twitter.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/512px-Twitter-logo.svg.png?20211104142029" height="20" width="20">
+            </a>
+            <a href="https://instagram.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346" height="20" width="20">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="20" width="20">
+            </a>
+            </div>
+            <div class="email">
+            <p>sallywangara20@gmail.com</p>
+            </div>
+        </div>
+       </div>    
+    </body>
+</html>
