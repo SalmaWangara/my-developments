@@ -1,6 +1,6 @@
 function Page() {
   return (
-    <div>
+    <div className="whole">
       <header>
         <nav className="header">
           <img
@@ -14,15 +14,17 @@ function Page() {
           </ul>
         </nav>
       </header>
-      <h1>Reasons why I'm excited to be learning React</h1>
-      <ol>
+      <h1 className="title">Reasons why I'm excited to be learning React</h1>
+      <ol className="order">
         <li>It is fun</li>
         <li>It is educational</li>
         <li>It is attributive</li>
         <li>It is exciting</li>
       </ol>
       <footer className="footer">
-        <small>© 2022 Wangara development. All rights reserved.</small>
+        <small className="last">
+          © 2022 Wangara development. All rights reserved.
+        </small>
       </footer>
     </div>
   );

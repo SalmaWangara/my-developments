@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+.whole{
+    width: 70%;
+    background-color: aquamarine;
+}
+
 .list{
     list-style: none;
     display: flex;
@@ -17,6 +22,7 @@
     border-style: ridge;
     align-items: center;
     font-size: 20px;
+    background-color: grey;
 }
 
 .list > li{
@@ -25,6 +31,20 @@
 
 .logo{
     width: 60px;
+}
+
+.title{
+    color: brown;
+    font-size: 50px;
+    padding: 0px 40px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.order{
+    padding: 0px 70px;
+    font-size: 20px;
+    padding-bottom: 40px;
 }
 
 .footer{
