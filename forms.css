@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>forms</title>
-        <style>
+
         a{
             text-decoration: none;
         }
@@ -167,55 +163,4 @@
         .first{
             padding-left: 10px;
         }
-        </style>
-    </head>
-    <body class="whole">
-        <div class="hero">
-            <div class="header">
-                <p>RawTemplates</p>
-            </div>
-            <div class="account">
-                <h2 class="high">Create an account</h2>
-                <p class="parag">And access the richest collection of slick design</p>
-                <p class="para">and code templates for your interface</p>
-                <form>
-                    <div class="form">
-                        <label for="name" class="first">First Name</label>
-                        <input type="text" name="firstName" id="name" class="text" required>
     
-                    </div>
-                    <div class="form">
-                        <label for="email" class="first">Email</label>
-                        <input type="email" name="email" id="email" class="text" required>
-                    </div>
-                    <div class="form">
-                        <label for="password" class="first">Password</label>
-                        <input type="password" name="password" id="password" class="text" required>
-                    </div>       
-                    <button class="submit">Submit</button>
-            
-                </form>
-                <a href="https://www.behance.net/" class="behance">Access 4789 Premium Templates</a>
-                <p class="or">Or continue with your social profile:</p>
-                <div class="social">
-                    <a href="https://google.com">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoTwX4-9LEY_qvmGYmLNZKVppIUa7BYaSio-SXHV5zX5ukktKKwHlrE6knJKuLyyWgwA&usqp=CAU" height="20" width="20" class="soc">
-                    </a>
-                    <a href="https://facebook.com">
-                        <img src="https://www.citypng.com/public/uploads/preview/-11595327237ulqckjabpb.png" height="20" width="20" class="soc">
-                    </a>
-                    <a href="https://pinterest.com">
-                        <img src="https://iconape.com/wp-content/files/hg/367780/svg/logo-pinterest-logo-icon-png-svg.png" height="20" width="20" class="soc">
-                    </a>
-                </div>
-            </div>
-            <div class="final">
-                <p class="with">Have you already an account?</p>
-                <a href="http://127.0.0.1:5500/signin.html" class="sign">Sign-in</a>
-            </div>  
-        </div>
-        <div class="image">
-            <img src="https://www.thoughtco.com/thmb/yLYsEuWhULiTsI79C3e0kt8Eteg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg" height="100%" width="100%">
-        </div>
-    </body>
-</html>

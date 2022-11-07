@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hire Me</title>
+        <style>
+            .forms{
+                display: flex;
+                flex-direction: column;
+                font-size: 20px;
+            }
+
+            .name {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 1px;
+                padding-top: 20px;
+            }
+
+            .full {
+                padding: 7px;
+                width: 50%;
+                background-color: azure;
+                border-style: solid;
+                border-radius: 3px;
+                border-width: 1px;
+            }
+
+            .submit {
+                width: 5%;
+                padding: 5px;
+                border-radius: 3px;
+                border-width: 1px;
+                background: azure;
+                cursor: pointer;
+                margin: 20px;
+                align-items: center;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="forms">
+            <div>
+                <label for="name" class="name">Full Name</label>
+                <input type="text" name="fullName" id="name" class="full">
+            </div>
+            <div>
+                <label for="email" class="name">Email Address</label>
+                <input type="email" name="email" id="email" class="full">
+            </div>
+            <div>
+                <label for="tel" class="name">Phone</label>
+                <input type="phone" name="phone" id="phone" class="full">
+            </div>
+            <button class="submit">Submit</button>
+        </form>
+    </body>
+</html>
